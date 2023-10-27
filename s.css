@@ -1,0 +1,55 @@
+:root {
+    --bg: #000;
+    --text: #fff;
+    color-scheme: dark;
+}
+
+body,
+html {
+    background-color: var(--bg);
+    color: var(--text);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+main {
+    margin-bottom: 7rem;
+}
+
+main,
+img {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 20rem;
+}
+
+h4,
+a {
+    opacity: 0.78;
+}
+
+.profile {
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.profile .avatar img {
+    width: 2.5rem;
+}
+
+.profile,
+.details {
+    object-fit: contain;
+    width: 100%;
+    display: flex-start;
+}
+
+a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
